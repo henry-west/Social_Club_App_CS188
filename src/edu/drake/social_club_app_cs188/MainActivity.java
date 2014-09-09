@@ -1,6 +1,6 @@
 //Meredith
 //Test Commit #2
-
+//this is a comment
 package edu.drake.social_club_app_cs188;
 
 import android.app.Activity;
