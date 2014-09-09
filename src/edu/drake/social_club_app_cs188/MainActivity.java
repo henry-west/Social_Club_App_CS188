@@ -1,3 +1,6 @@
+//Meredith
+//Test Commit #2
+
 package edu.drake.social_club_app_cs188;
 
 import android.app.Activity;
