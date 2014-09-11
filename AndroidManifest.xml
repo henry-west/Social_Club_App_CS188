@@ -22,6 +22,50 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Screen1a"
+            android:label="@string/title_activity_screen1a"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.social_club_app_cs188.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Screen2"
+            android:label="@string/title_activity_screen2" >
+        </activity>
+        <activity
+            android:name=".Screen2a"
+            android:label="@string/title_activity_screen2a"
+            android:parentActivityName=".Screen2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.social_club_app_cs188.Screen2" />
+        </activity>
+        <activity
+            android:name=".Screen3"
+            android:label="@string/title_activity_screen3" >
+        </activity>
+        <activity
+            android:name=".Screen3a"
+            android:label="@string/title_activity_screen3a"
+            android:parentActivityName=".Screen3" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.social_club_app_cs188.Screen3" />
+        </activity>
+        <activity
+            android:name=".Screen4"
+            android:label="@string/title_activity_screen4" >
+        </activity>
+        <activity
+            android:name=".Screen5"
+            android:label="@string/title_activity_screen5" >
+        </activity>
+        <activity
+            android:name=".Screen6"
+            android:label="@string/title_activity_screen6" >
+        </activity>
     </application>
 
 </manifest>
