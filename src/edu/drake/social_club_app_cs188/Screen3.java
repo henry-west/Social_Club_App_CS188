@@ -1,12 +1,18 @@
 package edu.drake.social_club_app_cs188;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Screen3 extends Activity {
 
+	public void Screen3a(View view) {
+		Intent intent = new Intent(this, Screen3a.class);
+		startActivity(intent);
+	}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
