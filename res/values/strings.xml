@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
-    //this is a comment 
+
 
     <string name="app_name">Social_Club_App_CS188</string>
     <string name="hello_world">Hello world!</string>
