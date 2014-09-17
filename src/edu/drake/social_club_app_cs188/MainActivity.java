@@ -14,7 +14,51 @@ import android.view.View;
 
 public class MainActivity extends Activity {
 	
-
+	public void Calendar(View view) {
+		Intent intent = new Intent(this, Calendar.class);
+		startActivity(intent);
+	}
+	
+	public void Categories(View view) {
+		Intent intent = new Intent(this, Categories.class);
+		startActivity(intent);
+	}
+	public void EventPage(View view) {
+		Intent intent = new Intent(this, EventPage.class);
+		startActivity(intent);
+	}
+	
+	public void Favorites(View view) {
+		Intent intent = new Intent(this, Favorites.class);
+		startActivity(intent);
+	}
+	public void HomeMenu(View view) {
+		Intent intent = new Intent(this, HomeMenu.class);
+		startActivity(intent);
+	}
+	
+	public void IndividualCategory(View view) {
+		Intent intent = new Intent(this, IndividualCategory.class);
+		startActivity(intent);
+	}
+	public void IndividualDay(View view) {
+		Intent intent = new Intent(this, IndividualDay.class);
+		startActivity(intent);
+	}
+	
+	public void Search(View view) {
+		Intent intent = new Intent(this, Search.class);
+		startActivity(intent);
+	}
+	public void Suggestions(View view) {
+		Intent intent = new Intent(this, Suggestions.class);
+		startActivity(intent);
+	}
+	
+	public void Today(View view) {
+		Intent intent = new Intent(this, Today.class);
+		startActivity(intent);
+	}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
