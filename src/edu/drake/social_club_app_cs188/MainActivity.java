@@ -14,22 +14,6 @@ import android.view.View;
 
 public class MainActivity extends Activity {
 	
-	public void Screen2(View view) {
-		Intent intent = new Intent(this, Screen2.class);
-		startActivity(intent);
-	}
-	public void Screen3(View view) {
-		Intent intent = new Intent(this, Screen3.class);
-		startActivity(intent);
-	}
-	public void Screen4(View view) {
-		Intent intent = new Intent(this, Screen4.class);
-		startActivity(intent);
-	}
-	public void Screen5(View view) {
-		Intent intent = new Intent(this, Screen5.class);
-		startActivity(intent);
-	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
