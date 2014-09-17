@@ -14,10 +14,6 @@ import android.view.View;
 
 public class MainActivity extends Activity {
 	
-	public void goCalendar(View view) {
-		Intent intent = new Intent(this, Calendar.class);
-		startActivity(intent);
-	}
 	
 	public void Calendar(View view) {
 		Intent intent = new Intent(this, Calendar.class);
