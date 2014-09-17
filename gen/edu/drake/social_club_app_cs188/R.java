@@ -23,17 +23,6 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
-        public static final int mockup1=0x7f020001;
-        public static final int mockup10=0x7f020002;
-        public static final int mockup2=0x7f020003;
-        public static final int mockup3=0x7f020004;
-        public static final int mockup4=0x7f020005;
-        public static final int mockup5=0x7f020006;
-        public static final int mockup6=0x7f020007;
-        public static final int mockup7=0x7f020008;
-        public static final int mockup8=0x7f020009;
-        public static final int mockup81=0x7f02000a;
-        public static final int mockup9=0x7f02000b;
     }
     public static final class id {
         public static final int action_settings=0x7f080004;
