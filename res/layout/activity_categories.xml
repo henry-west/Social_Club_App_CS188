@@ -16,6 +16,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
+        android:onClick="goIndividualCat"
         android:src="@drawable/categories" />
 
 </RelativeLayout>

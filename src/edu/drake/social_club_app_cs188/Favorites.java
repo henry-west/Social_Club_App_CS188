@@ -1,9 +1,11 @@
 package edu.drake.social_club_app_cs188;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Favorites extends Activity {
 
@@ -13,6 +15,11 @@ public class Favorites extends Activity {
 		setContentView(R.layout.activity_favorites);
 	}
 
+	public void goEvent(View view) {
+		Intent intent = new Intent(this, EventPage.class);
+		startActivity(intent);
+	}
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

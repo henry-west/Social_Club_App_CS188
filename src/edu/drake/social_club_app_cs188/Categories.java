@@ -1,9 +1,11 @@
 package edu.drake.social_club_app_cs188;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Categories extends Activity {
 
@@ -13,6 +15,11 @@ public class Categories extends Activity {
 		setContentView(R.layout.activity_categories);
 	}
 
+	public void goIndividualCat(View view) {
+		Intent intent = new Intent(this, IndividualCategory.class);
+		startActivity(intent);
+	}
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
