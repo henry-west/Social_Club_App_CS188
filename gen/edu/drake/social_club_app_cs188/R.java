@@ -28,23 +28,53 @@ public final class R {
         public static final int action_settings=0x7f080000;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
+        public static final int activity_calendar=0x7f030000;
+        public static final int activity_categories=0x7f030001;
+        public static final int activity_event_page=0x7f030002;
+        public static final int activity_favorites=0x7f030003;
+        public static final int activity_home_menu=0x7f030004;
+        public static final int activity_individual_category=0x7f030005;
+        public static final int activity_individual_day=0x7f030006;
+        public static final int activity_main=0x7f030007;
+        public static final int activity_search=0x7f030008;
+        public static final int activity_suggestions=0x7f030009;
+        public static final int activity_today=0x7f03000a;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
-        public static final int screen1a=0x7f070001;
-        public static final int screen2=0x7f070002;
-        public static final int screen2a=0x7f070003;
-        public static final int screen3=0x7f070004;
-        public static final int screen3a=0x7f070005;
-        public static final int screen4=0x7f070006;
-        public static final int screen5=0x7f070007;
-        public static final int screen6=0x7f070008;
+        public static final int calendar=0x7f070000;
+        public static final int categories=0x7f070001;
+        public static final int event_page=0x7f070002;
+        public static final int favorites=0x7f070003;
+        public static final int home_menu=0x7f070004;
+        public static final int individual_category=0x7f070005;
+        public static final int individual_day=0x7f070006;
+        public static final int main=0x7f070007;
+        public static final int screen1a=0x7f070008;
+        public static final int screen2=0x7f070009;
+        public static final int screen2a=0x7f07000a;
+        public static final int screen3=0x7f07000b;
+        public static final int screen3a=0x7f07000c;
+        public static final int screen4=0x7f07000d;
+        public static final int screen5=0x7f07000e;
+        public static final int screen6=0x7f07000f;
+        public static final int search=0x7f070010;
+        public static final int suggestions=0x7f070011;
+        public static final int today=0x7f070012;
     }
     public static final class string {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
         public static final int hello_world=0x7f050001;
+        public static final int title_activity_calendar=0x7f050005;
+        public static final int title_activity_categories=0x7f050009;
+        public static final int title_activity_event_page=0x7f050006;
+        public static final int title_activity_favorites=0x7f050008;
+        public static final int title_activity_home_menu=0x7f050003;
+        public static final int title_activity_individual_category=0x7f05000b;
+        public static final int title_activity_individual_day=0x7f050007;
+        public static final int title_activity_search=0x7f050004;
+        public static final int title_activity_suggestions=0x7f05000a;
+        public static final int title_activity_today=0x7f05000c;
     }
     public static final class style {
         /** 

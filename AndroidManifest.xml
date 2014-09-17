@@ -22,7 +22,82 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-       
+        <activity
+            android:name=".HomeMenu"
+            android:label="@string/title_activity_home_menu" >
+        </activity>
+        <activity
+            android:name=".Search"
+            android:label="@string/title_activity_search"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.social_club_app_cs188.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Calendar"
+            android:label="@string/title_activity_calendar"
+            android:parentActivityName="edu.drake.Social_Club_App_CS188.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.Social_Club_App_CS188.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EventPage"
+            android:label="@string/title_activity_event_page"
+            android:parentActivityName=".Search" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.social_club_app_cs188.Search" />
+        </activity>
+        <activity
+            android:name=".IndividualDay"
+            android:label="@string/title_activity_individual_day"
+            android:parentActivityName=".Calendar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.social_club_app_cs188.Calendar" />
+        </activity>
+        <activity
+            android:name=".Favorites"
+            android:label="@string/title_activity_favorites"
+            android:parentActivityName=".HomeMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.social_club_app_cs188.HomeMenu" />
+        </activity>
+        <activity
+            android:name=".Categories"
+            android:label="@string/title_activity_categories"
+            android:parentActivityName=".HomeMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.social_club_app_cs188.HomeMenu" />
+        </activity>
+        <activity
+            android:name=".Suggestions"
+            android:label="@string/title_activity_suggestions"
+            android:parentActivityName=".HomeMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.social_club_app_cs188.HomeMenu" />
+        </activity>
+        <activity
+            android:name=".IndividualCategory"
+            android:label="@string/title_activity_individual_category"
+            android:parentActivityName=".Categories" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.social_club_app_cs188.Categories" />
+        </activity>
+        <activity
+            android:name=".Today"
+            android:label="@string/title_activity_today"
+            android:parentActivityName=".HomeMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.social_club_app_cs188.HomeMenu" />
+        </activity>
     </application>
 
 </manifest>
