@@ -1,5 +1,6 @@
 package edu.drake.social_club_app_cs188;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +13,8 @@ public class IndividualDay extends Activity {
 	public void goEvent(View view) {
 		Intent intent = new Intent(this, EventPage.class);
 		startActivity(intent);
+		ActionBar actionBar = getActionBar();
+		actionBar.setDisplayHomeAsUpEnabled(true);
 	}
 
 	@Override
@@ -32,10 +35,13 @@ public class IndividualDay extends Activity {
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
+		//int id = item.getItemId();
+		//if (id == R.id.action_settings) {
+		//	return true;
+		//}
+		Intent myIntent = new Intent(getApplicationContext(), MainActivity.class);
+	    startActivityForResult(myIntent, 0);
+	    return true;
+		//return super.onOptionsItemSelected(item);
 	}
 }
