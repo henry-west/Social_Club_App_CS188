@@ -36,7 +36,8 @@ public final class R {
         public static final int suggested=0x7f02000b;
     }
     public static final class id {
-        public static final int action_settings=0x7f080001;
+        public static final int action_settings=0x7f080002;
+        public static final int button1=0x7f080001;
         public static final int imageButton1=0x7f080000;
     }
     public static final class layout {
