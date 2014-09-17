@@ -9,6 +9,6 @@
         android:layout_height="fill_parent"
         android:scaleType="fitXY"
         android:src="@drawable/calendar"
-        android:onClick= "goToday" />
+        android:onClick= "goIndividualDay" />
 
 </LinearLayout>

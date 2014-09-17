@@ -9,8 +9,8 @@ import android.view.View;
 
 public class Calendar extends Activity {
 	
-	public void goToday(View view) {
-		Intent intent = new Intent(this, Today.class);
+	public void goIndividualDay(View view) {
+		Intent intent = new Intent(this, IndividualDay.class);
 		startActivity(intent);
 	}
 	@Override
